@@ -50,11 +50,13 @@ public class pushDominos {
             j++;
         }
 
-        String res = "";
-        for(int k = 1; k <= l; k++) {
-            res += arr[k];
+        StringBuilder res = new StringBuilder();
+        for(int k = 1; k <= l; k++){
+            res.append(arr[k]);
         }
-        return res;
+
+
+        return res.toString();
   }
 
   private static  void solveConfig(char[] arr, int i, int j) {
