@@ -32,7 +32,7 @@ Explanation: left = [1,1,1,0], right = [6,12]
 
       // O(n)
 
-      //method 2
+      //method 1
       public static int partitionDisjoint(int[] nums) {
         int n = nums.length;
 
